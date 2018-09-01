@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.donut-bg {
+    background-image: url("P1030731.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.menu, .menu button {
+    float: right;
+}
+
+.menu button {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 300px;
+    color: white;
+        font-family: "proxima-nova";
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 1em;
+    padding: 1em 1.5em;
+}
+
+.menu {
+    padding: 40px;
+}
+
+.logo img {
+    height: auto;
+    max-height: 100px;
+    width: auto;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul, .menu button {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 11px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+        font-family: "proxima-nova";
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1em;
+    color: rgba(255,255,255,.9);
+}
+
+.menu button {
+    margin-left: 1em;
+}
+
+.header {
+    clear: both;
+    text-align: center;
+    margin: 220px auto;
+    margin-bottom: 18%;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    font-size: 68px;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header button {
+    background: none;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 300px;
+    width: 170px;
+    padding: 1em 1.75em;
+    margin: 10px 0;
+    background-color: #d7235f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 96px;
+    width: 100%;
+}
+
+main .bd img {
+    width: 389px;
+    height: 398px;
+}
+
+main .mi img {
+    width: 300%;
+    height: 398px;
+}
+
+.bd {
+    width: 26.1%;
+    margin: 0 auto;
+}
+
+.mi { 
+    width: 24%;
+    margin-left: 15%;
+    padding-top: 4%
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.ef form {
+    text-align: center;
+}
+
+.ef form input {
+    width: 60%;
+    padding: 8px;
+}
